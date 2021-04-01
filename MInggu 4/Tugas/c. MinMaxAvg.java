@@ -15,8 +15,8 @@ public class MinMaxAvg {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        int Input[], BanyakData,sum = 0; 
-        double avg;
+        int Input[], BanyakData; 
+        double avg,sum = 0;
         
         System.out.print("Masukkan Banyaknya Data Nilai = ");
         BanyakData = scan.nextInt();
